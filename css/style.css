@@ -1,0 +1,1080 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&display=swap');
+
+:root {
+    --thm-base: #ffa801;
+    --white: #fff;
+    --overlay: #082740;
+    --black: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+/* Header css  start form here*/
+
+header.header_section {
+    position: absolute;
+    display: block;
+    width: 100%;
+    float: left;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    top: 0;
+
+}
+
+.mid_menu_header {
+    position: relative;
+    padding: 25px 0 25px;
+
+}
+
+.header_logo img {
+    max-width: 70%;
+}
+
+.menus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-brs .top-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 2px solid #f9f9f9;
+    padding-bottom: 15px;
+}
+
+.header_navigation {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+
+.sidenavs {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sidenavs .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    display: none;
+}
+
+.menu_navigation {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.sidenavs a {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sidenavs a:hover {
+    color: var(--thm-base);
+}
+
+.sidenavs a.active {
+    color: var(--thm-base);
+}
+
+ul.menu_navigation li {
+    padding-right: 48px;
+}
+
+span.toggle_menu {
+    display: none;
+}
+
+.for-mob {
+    display: none;
+}
+
+/* Header css end here */
+
+/* Home banner section start form here */
+.banner {
+    background: url(../images/banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left center;
+    padding-top: 175px;
+    padding-bottom: 180px;
+    position: relative;
+    height: 694px;
+    z-index: 1;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--overlay);
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.bnr-inner .banner-text h1 {
+    margin: 0;
+    color: var(--white);
+    font-weight: 300;
+    font-size: 75px;
+    font-family: 'Satisfy', cursive;
+    max-width: 850px;
+    width: 100%;
+}
+
+.bnr-inner .banner-text P {
+    margin: 0;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.bnr-inner .banner-text h1 span {
+    color: var(--thm-base)
+}
+
+
+/*  */
+.unforgettable-wrapper {
+    background-color: #082740;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.unforgettable-inner p {
+    color: var(--white);
+    font-size: 26px;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+}
+
+.choose {
+    padding: 100px 0;
+}
+
+.choose-casino .Canadian-heading h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: var(--thm-base);
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.choose-casino .Canadian-heading {
+    padding: 0 90px 0 0;
+}
+
+.choose-casino .Canadian-heading p {
+    color: var(--black);
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.possibilities {
+    padding: 40px;
+    background: var(--overlay);
+    text-align: center;
+    color: var(--white);
+}
+
+.possibilities-inner .endless h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: var(--white);
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.possibilities-inner .endless p {
+    color: var(--white);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0
+}
+
+section.entertainment {
+    padding: 80px 0;
+}
+
+.breathtaking {
+    text-align: center;
+    max-width: 838px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.breathtaking h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: var(--overlay);
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.breathtaking p {
+    color: var(--black);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.theater {
+    border: 2px dotted var(--thm-base);
+    padding: 10px;
+}
+
+.theater figure {
+    overflow: hidden;
+}
+
+.theater figure img {
+    height: 273px;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.theater figure img:hover {
+    transform: scale(1.5);
+}
+
+.breathtaking-wrapper {
+    margin-top: 50px;
+}
+
+.theater h4 {
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: var(--overlay);
+    margin-top: 0px;
+    font-size: 26px;
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+section.entertainment.one {
+    padding-top: 0;
+}
+
+section.thrilling-table {
+    padding-bottom: 80px;
+}
+
+.adventure>h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: var(--thm-base);
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.adventure p {
+    color: var(--black);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+footer {
+    padding-top: 45px;
+    background: var(--overlay);
+}
+
+.footer-list h3 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.d-flex {
+    display: flex !important;
+    gap: 40px;
+}
+
+.footer-inner .footer-widget img {
+    max-width: 181px;
+    margin-bottom: 20px
+}
+
+.footer-inner .footer-widget p {
+    font-size: 18px;
+    max-width: 350px;
+    width: 100%;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: var(--white);
+}
+
+.footer-inner .footer-widget .footer-title h3 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.footer-inner .footer-widget .footer-list ul li a {
+    color: var(--white);
+    padding: 6px 0;
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    transition: all .3s;
+    font-size: 18px;
+    text-transform: capitalize
+}
+
+.footer-inner .footer-widget .footer-list ul li a:hover {
+    color: var(--thm-base)
+}
+
+ul.contact-details li a i {
+    padding: 0 10px 0 0
+}
+
+.social-icons-btn {
+    display: flex
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    background: #111;
+    margin: .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    transition: all .15s ease
+}
+
+.twitter:hover {
+    background: #00ECEE
+}
+
+.facebook:hover {
+    background: #4267B2
+}
+
+.instagram:hover {
+    background-image: linear-gradient(#8a3ab9, #e95950, #bc2a8d, #fccc63)
+}
+
+.linkedin:hover {
+    background: #0A66C2
+}
+
+.footer-bottom {
+    margin-top: 30px;
+}
+
+.footer-bottom .Copyright {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+}
+
+.footer-bottom {
+    padding-bottom: 45px;
+}
+
+.footer-bottom .Copyright p {
+    color: var(--white);
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+#cookie-popup {
+    position: fixed;
+    z-index: 9999;
+    right: 30px;
+    bottom: 30px;
+    width: 330px;
+    padding: 20px 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.85);
+    color: #eee;
+}
+
+#cookie-popup p:first-child {
+    margin: 0;
+    color: #eee;
+    font-weight: 900;
+    color: #00adef;
+}
+
+#cookie-popup p:nth-child(2) {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+
+
+#cookie-popup button {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    padding: 8px 0;
+    border: 1px solid var(--overlay);
+    color: #fff;
+    background-color: var(--overlay);
+
+
+}
+
+#cookie-popup button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/*  */
+section.privacy {
+    background: var(--overlay);
+    padding: 50px;
+}
+
+section.privacy .policy-inner h2 {
+    text-align: center;
+    color: var(--white);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+section.privacy-policy {
+    padding: 50px 0;
+}
+
+.privacy-policy-content h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: var(--thm-base);
+    margin-top: 0px;
+    font-size: 26px;
+}
+
+.privacy-policy-content p {
+    color: var(--black);
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.privacy-policy-content ul li {
+    color: var(--black);
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.privacy-policy-content ul li::after {
+    position: absolute;
+    content: "";
+    background: var(--thm-base);
+    width: 10px;
+    height: 10px;
+    top: 8px;
+    left: 0;
+    border-radius: 50%;
+}
+
+/*  */
+.banner.entertainment {
+    background: url(../images/entertainment.jpg);
+    padding-top: 175px;
+    padding-bottom: 180px;
+    background-position: center;
+    height: 500px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner.entertainment .bnr-inner .banner-text h2 {
+    text-align: center;
+    margin: 0;
+    color: var(--white);
+    font-weight: 300;
+    font-size: 75px;
+    font-family: 'Satisfy', cursive;
+
+}
+
+section.canadian {
+    padding: 70px 0;
+    background: var(--overlay);
+    text-align: center;
+}
+
+section.canadian .canadian-text p {
+    color: var(--white);
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+section.synonymous {
+    padding: 40px 0 80px;
+}
+
+.synonymous-inner h2 {
+    text-align: center;
+    color: var(--overlay);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.synonymous-inner p {
+    color: var(--black);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 838px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.soleil {
+    border: 2px dotted var(--thm-base);
+    padding: 15px;
+    height: 100%;
+}
+
+.synonymous-wrapper {
+    margin-top: 80px;
+}
+
+.soleil-inner h3 {
+    color: var(--overlay);
+    text-transform: capitalize;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 26px;
+    margin: 10px 0;
+}
+
+.soleil-inner p {
+    color: var(--overlay);
+    text-transform: capitalize;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.mirage a {
+    background-color: var(--thm-base);
+    padding: 8px 24px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid var(--thm-base);
+}
+
+.mirage a:hover {
+    background-color: transparent;
+    border: 1px solid var(--thm-base);
+    color: var(--thm-base);
+    display: inline-block;
+    font-size: 18px;
+}
+
+.soleil figure img {
+    height: 172px;
+    object-fit: cover;
+}
+
+.synonymous.one {
+    padding-top: 0;
+}
+
+.essential {
+    padding-bottom: 80px;
+}
+
+.essential-wrapper>h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: var(--thm-base);
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.essential .essential-wrapper p {
+    font-size: 20px;
+}
+
+.banner.entertainment.hotel {
+    background: url(../images/Hotels.jpg);
+    padding-top: 175px;
+    padding-bottom: 180px;
+    background-position: center;
+    height: 500px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boasts {
+    padding: 80px 0 0;
+}
+
+.famous p {
+    font-size: 20px;
+}
+
+.casino-hotels-wrapper {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    transition: all 0.3s;
+    padding: 20px;
+}
+
+.casino-hotels-wrapper .row {
+    align-items: center;
+}
+
+.casino-hotels-wrapper .casino-btn {
+    text-align: center;
+}
+
+.casino-hotels-wrapper .casino-btn a {
+    background-color: var(--overlay);
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+    padding: 11px 44px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid;
+}
+
+.casino-hotels-wrapper .casino-text {
+    text-align: center;
+}
+
+.casino-hotels-wrapper .casino-btn a:hover {
+    background: transparent;
+    border: 1px solid var(--overlay);
+    color: var(--overlay);
+}
+
+.casino-hotels-wrapper .casino-text h3 {
+    color: var(--overlay);
+    font-size: 30px;
+}
+
+.casino-hotels-wrapper .casino-text p {
+    font-size: 20px;
+    color: var(--black);
+}
+
+.casino-hotels-wrapper .casino-img figure img {
+    height: 216px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.casino {
+    padding-bottom: 80px;
+}
+
+.simplify {
+    padding-bottom: 80px;
+}
+
+.simplify .simplify-inner h5 {
+    font-size: 26px;
+    color: var(--overlay);
+}
+
+.simplify .simplify-inner p {
+    font-size: 20px;
+    color: var(--black);
+}
+
+.banner.entertainment.dining {
+    background: url(../images/Dining.avif);
+    padding-top: 175px;
+    padding-bottom: 180px;
+    background-position: center;
+    height: 500px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+figure.caesars img {
+    height: 333px;
+    object-fit: cover;
+}
+
+.banner.entertainment.contact {
+    background: url(../images/contact.avif );
+    padding-top: 175px;
+    padding-bottom: 180px;
+    background-position: center;
+    height: 500px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.connected {
+    padding: 80px 0;
+}
+
+
+.connected .stay-connected p {
+    color: var(--black);
+    font-size: 20px;
+
+}
+
+.banner.entertainment.casino {
+    background: url(../images/casino.avif);
+    padding-top: 175px;
+    padding-bottom: 180px;
+
+    height: 500px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.synonymous.robuchon {
+    padding-top: 0;
+}
+
+.boasts .row {
+    align-items: center;
+}
+
+.boasts.one {
+    padding-bottom: 0;
+}
+
+.synonymous-wrapper.one .soleil {
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.synonymous-wrapper.one .soleil .mirage {
+    position: absolute;
+    bottom: 10px;
+}
+
+.connected-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.stay-connected .social_media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.stay-connected .social_media a {
+    font-size: 16px;
+    color: var(--thm-base);
+    display: inline-block;
+    box-shadow: 0 0 5px;
+    padding: 5px 10px;
+}
+
+.connected .stay-connected p a {
+    color: var(--thm-base);
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.contact-form .input-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid #000;
+}
+
+.contact-form textarea.input-control {
+    width: 100%;
+    height: auto;
+    resize: none;
+}
+
+input.submit-btn {
+    background-color: var(--thm-base);
+    padding: 8px 24px;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid var(--thm-base);
+    margin: 0 auto;
+    width: fit-content;
+    display: block;
+}
+
+/*casino-page-css-start */
+.listed-format-sec .slovernia__destinations {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.listed-format-sec .mirage {
+    padding: 20px;
+}
+
+.sports {
+    padding: 40px 0;
+}
+
+.slovernia__card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    height: 100%;
+    transition: all .3s;
+}
+
+.slovernia__card:hover {
+    transform: translateY(-10px);
+}
+
+.space {
+    margin: 20px 0;
+}
+
+.slovernia__destinations {
+    height: 100%;
+}
+
+.slovernia__destinations img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.Slovenia__content h3 {
+    color: var(--overlay);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.Slovenia__content {
+    padding: 20px;
+}
+
+.type-of-bets {
+    margin: 40px 0 0;
+}
+
+.tips-sec {
+    margin: 40px 0 0;
+}
+
+.sports-bets p span {
+    color: var(--thm-base);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sports-bets p {
+    border: 1px solid var(--thm-base);
+    padding: 10px;
+}
+
+.sports-bets p span {
+    color: var(--thm-base);
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+
+/*casino-page-css-end */
+
+/*nature-page-css-start */
+.banner.entertainment.nature {
+    background: url(../images/naturebg.jpg);
+    padding-top: 175px;
+    padding-bottom: 180px;
+    background-position: center;
+    height: 500px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Start-outdoor-css*/
+.row.space {
+    margin-bottom: 50px;
+}
+
+.outdoor__section {
+    background: var(--white);
+    padding: 50px 0;
+
+    .outdoor {
+        &__main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+
+            p {
+                color: var(--black);
+                font-family: 'Barlow';
+            }
+        }
+
+        &__details {
+            padding: 20px 0;
+
+            h4 {
+                font-size: 22px;
+            }
+
+        }
+
+        &__picture {
+            height: 100%;
+
+            img {
+                height: 600px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    span.outdoor__head {
+        color: var(--overlay);
+        font-weight: 700;
+    }
+
+    .outdoor-btn {
+        padding: 20px 0;
+
+        a.outdoor-btn {
+            display: inline-block;
+            font-size: 1.6rem;
+            border: 2px solid var(--thm-base);
+            text-transform: capitalize;
+            transition: all 0.3s ease-in-out;
+            border: 1px solid;
+            padding: 10px 20px;
+            background: transparent;
+            color: var(--thm-base);
+            border-radius: 5px;
+
+            &:hover {
+                color: var(--white);
+                background: var(--thm-base);
+            }
+        }
+
+
+    }
+
+    .outdoor__main.center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .outdoor__details h5 {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .outdoor__details h5 span {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .outdoor__picture img {
+        height: 420px;
+        object-fit: cover;
+    }
+}
+
+/*End-outdoor-css*/
+/*nature-page-css-end */

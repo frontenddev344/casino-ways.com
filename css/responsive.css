@@ -1,0 +1,237 @@
+@media only screen and (max-width: 1199px) {
+    section.banner {
+        padding-top: 0;
+        padding-bottom: 0;
+        position: relative;
+        height: 500px;
+        background-position: center;
+    }
+
+    section.banner.entertainment {
+
+        height: 400px;
+
+    }
+
+    .casinopic img {
+        object-fit: cover;
+        height: 550px !important;
+    }
+
+    .theater h4 {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .d-flex {
+        display: flex !important;
+        gap: 20px;
+    }
+
+    .sidenavs .closebtn {
+        display: block;
+        line-height: 25px;
+        right: 7px;
+        margin: 0;
+    }
+
+    ul.menu_navigation {
+        display: inline-block;
+        width: 100%;
+    }
+
+    ul.menu_navigation li,
+    ul.top-menu li {
+        padding: 0;
+        border-bottom: 1px solid #ddddddc7;
+    }
+
+    .sidenavs a {
+        margin: 0;
+    }
+
+    ul.menu-btns li {
+        padding: 10px 8px;
+        width: 100%;
+    }
+
+    li.become-member .btn {
+        margin-right: 0;
+    }
+
+    span.toggle_menu {
+        display: inline-block;
+        color: var(--overlay);
+        font-size: 30px;
+        position: relative;
+        right: 0;
+        top: 0px;
+        margin-left: 15px;
+    }
+
+    .sidenavs {
+        width: 0;
+        position: fixed;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        overflow-x: hidden;
+        background: #1e4359;
+        transition: all 0.3s;
+        z-index: 9999;
+    }
+
+    ul.menu_navigation {
+        padding-top: 50px;
+        padding-left: 0;
+    }
+
+    .sidenavs a,
+    ul.top-menu a {
+        font-size: 18px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        white-space: nowrap;
+        color: #fff;
+    }
+
+    .sidenavs .menu-btns a {
+        display: block;
+        text-align: center;
+    }
+
+    .mid_menu_header {
+        padding: 20px 0 20px 0;
+    }
+
+    .top-brs.for-mob,
+    .menu-btns {
+        display: block;
+    }
+
+    .top-brs.for-desk {
+        display: none;
+    }
+
+    .top-brs .top-menu {
+        display: block;
+        border-bottom: 0;
+        padding: 40px 0 0;
+    }
+
+    li.lst-btn {
+        padding: 10px !important;
+        text-align: center;
+    }
+
+    li.lst-btn a {
+        text-align: center;
+        justify-content: center;
+    }
+
+    ul.menu_navigation li a {
+        padding: 20px;
+        display: inline-block;
+    }
+
+    .header_logo img {
+        max-width: 220px;
+        width: auto;
+    }
+
+    .choose-casino .row {
+        flex-direction: column-reverse;
+    }
+
+    .theater {
+        margin-bottom: 30px;
+    }
+
+    .choose-casino .Canadian-heading {
+        padding: 0;
+    }
+
+    .synonymous-wrapper .row .col-lg-3,
+    .synonymous-wrapper .row .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    .col-lg-6.space {
+        margin-bottom: 20px;
+    }
+
+    .boasts .outdoor__main {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bnr-inner .banner-text h1 {
+        font-size: 49px;
+    }
+
+    .unforgettable-inner p {
+        font-size: 18px;
+    }
+
+    .listed-format-sec .slovernia__destinations {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+
+    section.unforgettable-wrapper {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    .adventure>h2 {
+        font-size: 28px;
+    }
+
+    .essential-wrapper>h2 {
+        font-size: 28px;
+    }
+
+    .footer-widget {
+        margin: 0 0 30px;
+    }
+
+    .connected-wrap {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .d-flex {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .footer-list.margin {
+        margin-top: -38px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    section.banner.entertainment .bnr-inner .banner-text h2 {
+        font-size: 50px;
+    }
+
+    section.canadian .canadian-text p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #cookie-popup {
+        max-width: 95%;
+        right: 0;
+        bottom: 20px;
+        left: 0;
+        margin: 0 auto;
+    }
+}
