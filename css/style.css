@@ -37,6 +37,10 @@ figure {
     margin: 0;
 }
 
+.container {
+    max-width: 1320px;
+}
+
 /* Header css  start form here*/
 
 header.header_section {
