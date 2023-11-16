@@ -38,7 +38,8 @@ figure {
 }
 
 .container {
-    max-width: 1320px;
+    max-width: 1300px;
+    padding: 0 20px;
 }
 
 /* Header css  start form here*/
@@ -568,7 +569,7 @@ section.privacy-policy {
 }
 
 section.canadian {
-    padding: 70px 0;
+    padding: 40px 0;
     background: var(--overlay);
     text-align: center;
 }
