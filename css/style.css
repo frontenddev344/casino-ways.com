@@ -817,7 +817,7 @@ figure.caesars img {
 }
 
 .boasts .row {
-    align-items: center;
+    align-items: inherit;
 }
 
 .boasts.one {
