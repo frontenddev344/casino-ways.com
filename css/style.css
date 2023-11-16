@@ -396,6 +396,11 @@ ul.contact-details li a i {
     display: flex
 }
 
+ul.social_media a:hover {
+    background: var(--thm-base);
+    color: var(--white) !important;
+}
+
 .icons {
     width: 40px;
     height: 40px;
