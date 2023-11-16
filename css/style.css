@@ -995,91 +995,63 @@ input.submit-btn {
 .outdoor__section {
     background: var(--white);
     padding: 50px 0;
-
-    .outdoor {
-        &__main {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            height: 100%;
-
-            p {
-                color: var(--black);
-                font-family: 'Barlow';
-            }
-        }
-
-        &__details {
-            padding: 20px 0;
-
-            h4 {
-                font-size: 22px;
-            }
-
-        }
-
-        &__picture {
-            height: 100%;
-
-            img {
-                height: 600px;
-                object-fit: cover;
-                border-radius: 10px;
-            }
-        }
-    }
-
-    span.outdoor__head {
-        color: var(--overlay);
-        font-weight: 700;
-    }
-
-    .outdoor-btn {
-        padding: 20px 0;
-
-        a.outdoor-btn {
-            display: inline-block;
-            font-size: 1.6rem;
-            border: 2px solid var(--thm-base);
-            text-transform: capitalize;
-            transition: all 0.3s ease-in-out;
-            border: 1px solid;
-            padding: 10px 20px;
-            background: transparent;
-            color: var(--thm-base);
-            border-radius: 5px;
-
-            &:hover {
-                color: var(--white);
-                background: var(--thm-base);
-            }
-        }
-
-
-    }
-
-    .outdoor__main.center {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100%;
-    }
-
-    .outdoor__details h5 {
-        font-weight: 400;
-        font-size: 18px;
-    }
-
-    .outdoor__details h5 span {
-        font-weight: 500;
-        font-size: 18px;
-    }
-
-    .outdoor__picture img {
-        height: 420px;
-        object-fit: cover;
-    }
 }
+
+.outdoor__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.outdoor__main p {
+    color: var(--black);
+    font-family: 'Barlow Condensed';
+}
+
+.outdoor__details {
+    padding: 20px 0;
+}
+
+.outdoor__details h4 {
+    font-size: 22px;
+}
+
+
+.outdoor__details h5 span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.outdoor__picture img {
+    height: 420px;
+    object-fit: cover;
+}
+
+.outdoor__details h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.outdoor__picture {
+    height: 100%;
+}
+
+
+span.outdoor__head {
+    color: var(--overlay);
+    font-weight: 700;
+}
+
+.outdoor__main.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+
 
 /*End-outdoor-css*/
 /*nature-page-css-end */
