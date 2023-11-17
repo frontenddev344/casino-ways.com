@@ -851,6 +851,10 @@ figure.caesars img {
     bottom: 10px;
 }
 
+section.sports {
+    padding: 0;
+}
+
 .connected-wrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
