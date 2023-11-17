@@ -811,12 +811,23 @@ figure.caesars img {
     background: url(../images/casino.avif);
     padding-top: 175px;
     padding-bottom: 180px;
+    height: 500px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
+.banner.entertainment.sports {
+    background: url(../images/sportsbanner.jpeg);
+    padding-top: 175px;
+    padding-bottom: 180px;
     height: 500px;
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .synonymous.robuchon {
     padding-top: 0;
