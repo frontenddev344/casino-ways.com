@@ -863,12 +863,16 @@ figure.caesars img {
     gap: 10px;
 }
 
-.stay-connected .social_media a {
-    font-size: 16px;
+.social_media li {
     color: var(--thm-base);
     display: inline-block;
     box-shadow: 0 0 5px;
     padding: 5px 10px;
+}
+
+.stay-connected .social_media a {
+    font-size: 16px;
+
 }
 
 .connected .stay-connected p a {
